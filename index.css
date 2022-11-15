@@ -1,0 +1,55 @@
+body{
+    background-color: #add8e6;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, 50%);
+}
+@media all and (max-width: 1024px) {
+	#container {
+		width: 600px;
+	}
+}
+@media all and (max-width: 480px) {
+	#container {
+		width: 300px;
+	}
+}
+.looks{
+    border-radius: 15px;
+    background: #add8e6;
+    padding: 10px;
+    margin: 10px;
+}
+.looks:hover {
+    background-color: #e0ffff80;
+  }
+.Data{
+    float: left;
+    background-color: #e0ffff;
+    margin: 15px;
+    padding: 30px 15px;
+}
+.Recent{
+    padding: 3px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.Recent{
+    border-radius: 5px;
+}
+.Prev{
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.Prev{
+    border-radius: 5px;
+}
